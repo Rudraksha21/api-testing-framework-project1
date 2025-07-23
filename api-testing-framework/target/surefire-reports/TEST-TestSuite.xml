@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="2.342" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/rudraksha/Desktop/Ashray/SDET-Project/Project2/api-testing-framework/target/test-classes:/home/rudraksha/Desktop/Ashray/SDET-Project/Project2/api-testing-framework/target/classes:/home/rudraksha/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/home/rudraksha/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/rudraksha/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/rudraksha/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/rudraksha/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/home/rudraksha/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/home/rudraksha/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/home/rudraksha/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/rudraksha/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/rudraksha/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/rudraksha/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/rudraksha/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/rudraksha/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/rudraksha/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/home/rudraksha/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/home/rudraksha/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/home/rudraksha/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/home/rudraksha/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/rudraksha/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/rudraksha/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/home/rudraksha/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/home/rudraksha/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/rudraksha/Desktop/Ashray/SDET-Project/Project2/api-testing-framework/target/surefire/surefirebooter-20250723112340865_3.jar /home/rudraksha/Desktop/Ashray/SDET-Project/Project2/api-testing-framework/target/surefire 2025-07-23T11-23-40_762-jvmRun1 surefire-20250723112340865_1tmp surefire_0-20250723112340865_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/rudraksha/Desktop/Ashray/SDET-Project/Project2/api-testing-framework/target/test-classes:/home/rudraksha/Desktop/Ashray/SDET-Project/Project2/api-testing-framework/target/classes:/home/rudraksha/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/home/rudraksha/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/rudraksha/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/rudraksha/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/rudraksha/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/home/rudraksha/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/home/rudraksha/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/home/rudraksha/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/rudraksha/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/rudraksha/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/rudraksha/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/rudraksha/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/rudraksha/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/rudraksha/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/home/rudraksha/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/home/rudraksha/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/home/rudraksha/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/home/rudraksha/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/rudraksha/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/rudraksha/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/home/rudraksha/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/home/rudraksha/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/rudraksha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/rudraksha/Desktop/Ashray/SDET-Project/Project2/api-testing-framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/rudraksha/Desktop/Ashray/SDET-Project/Project2/api-testing-framework/target/surefire/surefirebooter-20250723112340865_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.15+6-Ubuntu-0ubuntu122.04"/>
+    <property name="user.name" value="rudraksha"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.12.10-76061203-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/rudraksha/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.15"/>
+    <property name="user.dir" value="/home/rudraksha/Desktop/Ashray/SDET-Project/Project2/api-testing-framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="17.0.15+6-Ubuntu-0ubuntu122.04"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testCreateNewItem" classname="org.example.ApiTests" time="1.385">
+    <system-out><![CDATA[RestAssured Base URI set to: http://localhost:3000/api/items
+
+--- Running testCreateNewItem ---
+Status Code: 201
+Response Body: {"id":3,"name":"New Test Item","description":"This is a description for a new item created by API test."}
+Created Item ID: 3
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateItemWithMissingFields" classname="org.example.ApiTests" time="0.03">
+    <system-out><![CDATA[
+--- Running testCreateItemWithMissingFields ---
+Status Code: 400
+Response Body: {"message":"Name and description are required"}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAllItems" classname="org.example.ApiTests" time="0.032">
+    <system-out><![CDATA[
+--- Running testGetAllItems ---
+Status Code: 200
+Response Body: [{"id":1,"name":"Item A","description":"Description for Item A"},{"id":2,"name":"Item B","description":"Description for Item B"},{"id":3,"name":"New Test Item","description":"This is a description for a new item created by API test."}]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetSpecificItem" classname="org.example.ApiTests" time="0.026">
+    <system-out><![CDATA[
+--- Running testGetSpecificItem ---
+Status Code: 200
+Response Body: {"id":3,"name":"New Test Item","description":"This is a description for a new item created by API test."}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetNonExistentItem" classname="org.example.ApiTests" time="0.023">
+    <system-out><![CDATA[
+--- Running testGetNonExistentItem ---
+Status Code: 404
+Response Body: {"message":"Item not found"}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateItem" classname="org.example.ApiTests" time="0.037">
+    <system-out><![CDATA[
+--- Running testUpdateItem ---
+Status Code: 200
+Response Body: {"id":3,"name":"Updated Test Item Name","description":"Updated description for the test item."}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateNonExistentItem" classname="org.example.ApiTests" time="0.036">
+    <system-out><![CDATA[
+--- Running testUpdateNonExistentItem ---
+Status Code: 404
+Response Body: {"message":"Item not found"}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteItem" classname="org.example.ApiTests" time="0.032">
+    <system-out><![CDATA[
+--- Running testDeleteItem ---
+Status Code: 204
+Verified item is deleted.
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteNonExistentItem" classname="org.example.ApiTests" time="0.022">
+    <system-out><![CDATA[
+--- Running testDeleteNonExistentItem ---
+Status Code: 404
+Response Body: {"message":"Item not found"}
+]]></system-out>
+  </testcase>
+</testsuite>

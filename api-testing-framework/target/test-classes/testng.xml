@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="APIRestAssuredSuite" verbose="1">
+    <test name="CRUDOperationsTests">
+        <classes>
+            <!-- Specify the package and class name of your test class -->
+            <class name="org.example.ApiTests"/>
+        </classes>
+    </test>
+</suite>

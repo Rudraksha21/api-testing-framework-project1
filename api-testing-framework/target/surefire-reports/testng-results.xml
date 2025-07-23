@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-23T11:23:41 IST" name="APIRestAssuredSuite" finished-at="2025-07-23T11:23:43 IST" duration-ms="1960">
+    <groups>
+    </groups>
+    <test started-at="2025-07-23T11:23:41 IST" name="CRUDOperationsTests" finished-at="2025-07-23T11:23:43 IST" duration-ms="1960">
+      <class name="org.example.ApiTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.ApiTests@222114ba]" started-at="2025-07-23T11:23:41 IST" name="setup" finished-at="2025-07-23T11:23:41 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateNewItem()[pri:1, instance:org.example.ApiTests@222114ba]" started-at="2025-07-23T11:23:41 IST" name="testCreateNewItem" finished-at="2025-07-23T11:23:43 IST" duration-ms="1384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewItem -->
+        <test-method signature="testCreateItemWithMissingFields()[pri:2, instance:org.example.ApiTests@222114ba]" started-at="2025-07-23T11:23:43 IST" name="testCreateItemWithMissingFields" finished-at="2025-07-23T11:23:43 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateItemWithMissingFields -->
+        <test-method signature="testGetAllItems()[pri:3, instance:org.example.ApiTests@222114ba]" started-at="2025-07-23T11:23:43 IST" name="testGetAllItems" finished-at="2025-07-23T11:23:43 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllItems -->
+        <test-method signature="testGetSpecificItem()[pri:4, instance:org.example.ApiTests@222114ba]" started-at="2025-07-23T11:23:43 IST" name="testGetSpecificItem" finished-at="2025-07-23T11:23:43 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSpecificItem -->
+        <test-method signature="testGetNonExistentItem()[pri:5, instance:org.example.ApiTests@222114ba]" started-at="2025-07-23T11:23:43 IST" name="testGetNonExistentItem" finished-at="2025-07-23T11:23:43 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNonExistentItem -->
+        <test-method signature="testUpdateItem()[pri:6, instance:org.example.ApiTests@222114ba]" started-at="2025-07-23T11:23:43 IST" name="testUpdateItem" finished-at="2025-07-23T11:23:43 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateItem -->
+        <test-method signature="testUpdateNonExistentItem()[pri:7, instance:org.example.ApiTests@222114ba]" started-at="2025-07-23T11:23:43 IST" name="testUpdateNonExistentItem" finished-at="2025-07-23T11:23:43 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateNonExistentItem -->
+        <test-method signature="testDeleteItem()[pri:8, instance:org.example.ApiTests@222114ba]" started-at="2025-07-23T11:23:43 IST" name="testDeleteItem" finished-at="2025-07-23T11:23:43 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteItem -->
+        <test-method signature="testDeleteNonExistentItem()[pri:9, instance:org.example.ApiTests@222114ba]" started-at="2025-07-23T11:23:43 IST" name="testDeleteNonExistentItem" finished-at="2025-07-23T11:23:43 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteNonExistentItem -->
+      </class> <!-- org.example.ApiTests -->
+    </test> <!-- CRUDOperationsTests -->
+  </suite> <!-- APIRestAssuredSuite -->
+</testng-results>
